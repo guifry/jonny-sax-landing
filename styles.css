@@ -168,8 +168,8 @@ nav .container {
     max-height: 90vh;
     width: auto;
     object-fit: contain;
-    mask-image: radial-gradient(ellipse 80% 80% at center, black 40%, transparent 70%);
-    -webkit-mask-image: radial-gradient(ellipse 80% 80% at center, black 40%, transparent 70%);
+    mask-image: radial-gradient(ellipse 60% 70% at center, black 30%, transparent 65%);
+    -webkit-mask-image: radial-gradient(ellipse 60% 70% at center, black 30%, transparent 65%);
 }
 
 .hero-portrait .hero-content {
