@@ -318,6 +318,28 @@ nav .container {
     font-size: 0.9375rem;
 }
 
+a.service-item {
+    display: block;
+    text-decoration: none;
+    background: var(--bg-secondary);
+    padding: 32px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+a.service-item:hover {
+    transform: translateY(-4px);
+    background: var(--bg-tertiary);
+}
+
+a.service-item h3 {
+    color: var(--text-primary);
+}
+
+a.service-item p {
+    color: var(--text-secondary);
+}
+
 /* Feature Section */
 .feature-section {
     padding: 100px 0;
