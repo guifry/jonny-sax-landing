@@ -432,8 +432,10 @@ a.service-item p {
 
 .client-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .client-quote {
