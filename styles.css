@@ -577,6 +577,12 @@ a.service-item p {
     color: var(--text-secondary);
 }
 
+/* TikTok Section */
+.tiktok-section {
+    padding: 100px 0;
+    background: var(--bg-secondary);
+}
+
 /* CTA Section */
 .cta-section {
     padding: 120px 0;
