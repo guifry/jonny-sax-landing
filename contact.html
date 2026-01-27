@@ -141,8 +141,7 @@
             });
             const data = await response.json();
             if (response.ok) {
-                alert("Thanks! Your enquiry has been sent. I'll reply within 24 hours.");
-                form.reset();
+                window.location.href = "thank-you.html";
             } else {
                 alert("Error: " + data.message);
             }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for Your Enquiry | Jonny Diggens Saxophonist</title>
+    <meta name="description" content="Thanks for getting in touch. I'll reply within 24 hours.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">Jonny Diggens</a>
+            <ul class="nav-links">
+                <li><a href="weddings.html">Weddings</a></li>
+                <li><a href="corporate.html">Corporate</a></li>
+                <li><a href="private.html">Private</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="thank-you-hero">
+        <div class="container">
+            <div class="thank-you-content">
+                <div class="confirmation-box">
+                    <span class="checkmark">✓</span>
+                    <h1>Thanks! I've got your enquiry.</h1>
+                    <p class="reply-time">I'll personally reply within 24 hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="thank-you-video">
+        <div class="container">
+            <h2>While you wait, here's a taste of what your event could look like:</h2>
+            <div class="video-wrapper">
+                <!-- Replace VIDEO_ID with actual YouTube video ID -->
+                <iframe
+                    src="https://www.youtube.com/embed/VIDEO_ID"
+                    title="Jonny Diggens Performance"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="thank-you-proof">
+        <div class="container">
+            <h2>You're in good hands</h2>
+            <div class="proof-grid">
+                <div class="proof-item">
+                    <img src="with-king-charles.png" alt="Jonny with King Charles III">
+                    <p class="proof-caption">Performed for His Majesty King Charles III</p>
+                </div>
+                <div class="proof-item proof-testimonial">
+                    <p class="stars">★★★★★</p>
+                    <blockquote>"There is no doubt in my mind that Jonny is the best emerging saxophonist of our time."</blockquote>
+                    <cite>— Laura Baile</cite>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="thank-you-social">
+        <div class="container">
+            <h2>See more performances</h2>
+            <div class="social-buttons">
+                <!-- Replace # with actual social links -->
+                <a href="#" class="social-btn" target="_blank" rel="noopener">Instagram</a>
+                <a href="#" class="social-btn" target="_blank" rel="noopener">TikTok</a>
+                <a href="#" class="social-btn" target="_blank" rel="noopener">YouTube</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="thank-you-next">
+        <div class="container">
+            <h2>What happens next</h2>
+            <div class="next-steps">
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <p>I'll review your enquiry</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <p>Reply within 24 hours with availability and pricing</p>
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <p>Quick chat to make sure I'm the right fit — no pressure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="thank-you-referral">
+        <div class="container">
+            <div class="referral-box">
+                <p class="referral-text">Know someone planning an event?</p>
+                <button class="btn btn-secondary" onclick="copyLink()">Share Jonny</button>
+                <span class="copied-message" id="copied-message">Link copied!</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>© 2025 Jonny Diggens. Based in Edinburgh, performing across Scotland & UK.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    function copyLink() {
+        navigator.clipboard.writeText('https://jonnydiggens.com').then(function() {
+            document.getElementById('copied-message').classList.add('show');
+            setTimeout(function() {
+                document.getElementById('copied-message').classList.remove('show');
+            }, 2000);
+        });
+    }
+    </script>
+</body>
+</html>

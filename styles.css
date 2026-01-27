@@ -855,3 +855,250 @@ footer {
         text-align: center;
     }
 }
+
+/* Thank You Page */
+.thank-you-hero {
+    padding: 160px 0 60px;
+    text-align: center;
+}
+
+.confirmation-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.checkmark {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    background: var(--accent);
+    color: var(--bg-primary);
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.thank-you-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.reply-time {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+}
+
+.thank-you-video {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.thank-you-video h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: var(--text-secondary);
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.thank-you-proof {
+    padding: 60px 0;
+    background: var(--bg-secondary);
+}
+
+.thank-you-proof h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.proof-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.proof-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.proof-caption {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.proof-testimonial {
+    text-align: center;
+}
+
+.proof-testimonial .stars {
+    color: var(--accent);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.proof-testimonial blockquote {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.proof-testimonial cite {
+    color: var(--text-secondary);
+}
+
+.thank-you-social {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.thank-you-social h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    padding: 12px 30px;
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    color: var(--accent);
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background: var(--accent);
+    color: var(--bg-primary);
+}
+
+.thank-you-next {
+    padding: 60px 0;
+    background: var(--bg-secondary);
+}
+
+.thank-you-next h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.next-steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.step {
+    text-align: center;
+    flex: 1;
+}
+
+.step-number {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: var(--accent);
+    color: var(--bg-primary);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.step p {
+    color: var(--text-secondary);
+}
+
+.thank-you-referral {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.referral-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.referral-text {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.btn-secondary {
+    padding: 12px 25px;
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: var(--accent);
+    color: var(--bg-primary);
+}
+
+.copied-message {
+    color: var(--accent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.copied-message.show {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .thank-you-hero h1 {
+        font-size: 2rem;
+    }
+
+    .proof-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .next-steps {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .referral-box {
+        flex-direction: column;
+    }
+}
